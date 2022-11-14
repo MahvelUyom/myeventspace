@@ -1,0 +1,448 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+    
+}
+h1{
+  color:red;
+}
+.main{
+  padding-top: 15rem;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+   top:0; left:0;
+    width:100%;
+    background:black;
+   box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:2rem 9%;
+    display: flex;
+    color: darkgrey;
+    opacity: 95%;
+    align-items: center;
+ justify-content: space-between;
+   z-index: 1000;
+    
+}
+
+header .logo{
+    font-size: 2rem;
+    color:darkgrey;
+    margin-right: 5rem;
+    margin-left:0rem;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    margin-left: 2rem;
+    color:var(--purple);
+}
+
+header .navbar a:hover{
+    color:var(--pink);
+}
+
+header input:not(.search){
+    display: none;
+}
+
+header input.search{
+  background:darkgrey;
+  color:whitesmoke;
+  width:100%;
+  height:32px;
+  padding:5px;
+  margin-bottom:15px;
+  font-size: 16px;
+  
+  border-radius:4px;
+}
+header label{
+    font-size: 3rem;
+    color:var(--purple);
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+}
+.myevent{
+  text-align: center;
+  line-height: 20px;
+}
+.myevent h1{
+  font-size:40px;
+  color:darkgrey;
+  letter-spacing: 2px;
+}
+.myevent p{
+  margin-top: 2rem;
+  font-size: 20px;
+  padding: 2rem;
+  line-height: 30px;
+}
+.myevent button{
+  width:15rem;
+  height: 5rem;
+  background: darkgrey;
+  border-radius: 30px;
+  border:none;
+  color:white;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding: 10px;
+}
+.slide{
+  height: 50vh;
+  text-align: center;
+  margin-top: 5rem;
+  
+}
+.slide p{
+  font-size:px;
+  font-weight: 400;
+}
+.halls{
+  margin-top:15rem;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJ1E49-jA3cQ1y_l_Hx1ABdF7JV_kk8il3uQ&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.halls h1{
+  font-size: 40px;
+  color:white;
+  padding-top: 8rem;
+  
+}
+.halls p{
+  color:white;
+  font-size: 22px;
+  padding-top: 2rem;
+  padding:2rem 2rem;
+  backdrop-filter: blur(10px);
+}
+.halls button{
+  width: 10rem;
+  height:3rem;
+  border-radius: 20px;
+  border:none;
+  font-weight: 700;
+  margin-top: 3rem;
+  background: darkgrey;
+  color:white;
+  
+}
+.canopy{
+  background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1PHfHPY0OpisMUNFhM_3b0tqIxkEjC4eTzQ&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.canopy h1{
+  font-size: 40px;
+  color:black;
+  padding-top: 8rem;
+}
+.canopy p{
+  color:black;
+  font-size: 22px;
+  padding-top: 2rem;
+  padding:2rem 2rem;
+  backdrop-filter: blur(10px);
+}
+.canopy button{
+  width: 10rem;
+  height:3rem;
+  border-radius: 20px;
+  border:none;
+  font-weight: 700;
+  margin-top: 3rem;
+  background: black;
+  color:white;
+}
+.staff{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwd0SVsA7QJY2qkNWn2MYSI39oHZaJ4bKGA&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.staff h1{
+  font-size: 40px;
+  color:white;
+  padding-top: 8rem;
+}
+.staff p{
+  color:white;
+  font-size: 22px;
+  padding-top: 2rem;
+  padding:2rem 2rem;
+  backdrop-filter: blur(10px);
+}
+.staff button{
+  width: 10rem;
+  height:3rem;
+  border-radius: 20px;
+  border:none;
+  font-weight: 700;
+  margin-top: 3rem;
+  background: darkgrey;
+  color:white;
+}
+.security{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWElWp_HcVxy1LwCCOlH5g0Zpk-QlbpvX63A&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.security h1{
+  font-size: 40px;
+  color:black;
+  padding-top: 8rem;
+}
+.security p{
+  color: black;
+  font-size: 22px;
+  padding:2rem 2rem;
+  padding-top: 2rem;
+  backdrop-filter: blur(10px);
+}
+.security button{
+  width: 10rem;
+  height:3rem;
+  border-radius: 20px;
+  border:none;
+  font-weight: 700;
+  margin-top: 3rem;
+  background: black;
+  color:white;
+
+
+}
+.picnic{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNM_xGe7DTe01fmyqBNr3YCJuUW1eviqSCXw&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.picnic h1{
+  font-size: 40px;
+  color:black;
+  padding-top: 8rem;
+}
+.picnic p{
+  color:black;
+  font-size: 22px;
+  padding:2rem 2rem;
+  padding-top: 2rem;
+  backdrop-filter: blur(10px);
+}
+.picnic button{
+  width: 10rem;
+  height:3rem;
+  border-radius: 20px;
+  border:none;
+  font-weight: 700;
+  margin-top: 3rem;
+  background: black;
+  color:white;
+
+}
+.restaurant{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSM29eTuPQkN6P0-2NyzsYQNX3DIYfF2oqqsg&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.restaurant h1{
+  font-size: 40px;
+  color:white;
+  padding-top: 8rem;
+}
+.restaurant p{
+  color:white;
+  font-size: 22px;
+  padding:2rem 2rem;
+  padding-top: 2rem;
+  backdrop-filter: blur(10px);
+}
+.restaurant button{
+  width: 10rem;
+  height:3rem;
+  border-radius: 20px;
+  border:none;
+  font-weight: 700;
+  margin-top: 3rem;
+  background: darkgrey;
+  color:white;
+}
+.tour{
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8d9YGpLfEhU4_CNBcEBmWaTePNDo59AhTJQ&usqp=CAU);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tour h1{
+  font-size: 40px;
+  color:black;
+  padding-top: 8rem;
+}
+.tour p{
+  color:black;
+  font-size: 22px;
+  padding:2rem 2rem;
+  padding-top: 2rem;
+  backdrop-filter: blur(10px);
+}
+.tour button{
+  width: 10rem;
+  height:3rem;
+  border-radius: 20px;
+  border:none;
+  font-weight: 700;
+  margin-top: 3rem;
+  background:black;
+  color:white;
+}
+
+
+
+.footer{
+    padding-top: 3rem;
+    margin-top: 5rem;
+    background:linear-gradient(black, darkgrey);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.footer .box-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer .box-container .box{
+    flex:1 1 25rem;
+    margin:1.1rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    padding:1rem 0;
+    color:#fff;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.footer .box-container .box p{
+    font-size: 2rem;
+    padding:.5rem 0;
+    color:#eee;
+}
+.footer .box-container .box .info p{
+  font-size: 1.5rem;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.5rem;
+    padding:.5rem 0;
+    color:#eee;
+}
+
+.footer .box-container .box a:hover{
+    text-decoration: underline;
+}
+
+.footer .box-container .box .info{
+    display: flex;
+    align-items: center;
+}
+
+.footer .box-container .box .info i{
+    margin:.5rem 0;
+    margin-right: 1rem;
+    border-radius: 50%;
+    background:#fff;
+    color:var(--pink);
+    font-size: 1.5rem;
+    height:4.5rem;
+    width:4.5rem;
+    line-height: 4.5rem;
+    text-align: center;
+}
+
+
+
+
+
+/*
+
+.contact{
+  margin-top: 5rem;
+}
+.contact h2{
+  color: darkgray;
+  font-size: 23px;
+  padding:2rem;
+}
+.social{
+  display: flex;
+  background: darkgrey;
+  padding: 10px 0;
+  margin-top: 1rem;
+}
+.social img{
+  height:40px;
+  width: 40px;
+  margin-left: 4rem;
+  border-radius: 150px;
+}
+
+*/
+
+@media(min-width:768px){
+  input{
+    display: none;
+  }
+}
+@media (max-width:768px){
+
+   header label{
+        visibility: visible;
+        opacity: 1;
+    }
+
+    header .navbar{
+        position: absolute;
+        top:100%; left: 0;
+        width:100%;
+        height:50vh;
+        background:#000;
+        padding:1rem 2rem;
+        border-top: .1rem solid rgba(0,0,0,.2);
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+        transform-origin: top;
+        transform: scaleY(0);
+        opacity: 0;
+        transition: .2s linear;
+    }
+
+   header .navbar a{
+        display: block;
+        margin:2rem 0rem;
+        font-size: 2rem;
+    }
+
+    header input:checked ~ .navbar{
+        transform: scaleY(1);
+        opacity: 1;
+    }
+
+    header input:checked ~ label::before{
+        content:'\f00d';
+    }
+}
